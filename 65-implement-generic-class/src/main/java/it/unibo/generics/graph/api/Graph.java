@@ -51,5 +51,5 @@ public interface Graph<N> {
      * @return a sequence of nodes connecting sources and target
      */
     List<N> getPath(N source, N target);
-
+    
 }
